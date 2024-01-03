@@ -242,6 +242,9 @@
     .second {
         margin-left: 160px;
     }
+    .pembungkus {
+        margin-left: 160px;
+    }
     .option {
         padding: 20px 0 20px 160px;
     }
@@ -309,6 +312,15 @@
     .ket-2 p {
         font-size: 12px;
     }
+    .footer {
+        display: block;
+    }
+    .mark {
+        justify-content: center;
+    }
+    .copyright {
+        text-align: center;
+    }
 }
 @media (max-width:524px) {
     .second-judul {
@@ -334,7 +346,29 @@
         top: 25%;
     }
 }
-
+@media (max-width:430px) {
+    .main-judul {
+        margin: 0 30px;
+    }
+    .main-judul .main-desc {
+        width: 95%;
+    }
+    .option {
+        padding: 10px;
+        text-align: center;
+    }
+    .second {
+        margin-left: 30px;
+    }
+    .second-desk {
+        margin-top: 5px;
+        width: 90%;
+    }
+    .pembungkus {
+        margin: 0 20px;
+        width: 60%;
+    }
+}
 
 
 
