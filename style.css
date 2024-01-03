@@ -1,0 +1,407 @@
+.top-nav {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.top-nav img {
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.navbar img{
+    width: 100vw;
+}
+.navbar-menu {
+    margin-top: 25px;
+}
+.navbar-menu a {
+    font-weight: 700;
+    margin-right: 5px;
+    font-size: 15px;
+}
+.section-accordion {
+    display: none;
+}
+.accordion {
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  transition: 0.4s;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.active, .accordion:hover {
+  background-color: #ccccccab;
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.panel a {
+    display: block;
+    margin: 7px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
+}
+.hero-logo img {
+    height: 40px;
+}
+.hero-menu {
+    margin-top: 15px;
+}
+.hero-menu .menu1 {
+    margin: 20px 10px;
+    font-weight: 700;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.main {
+    background-image: url('/assets/images/main.jpg');
+    height: 500px;
+    width: 100vw;
+    background-size: cover;
+}
+.main-judul {
+    padding-top: 30px;
+    margin-left: 200px;
+    position: relative;
+}
+.main-judul h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: rgba(55, 49, 49, 0.724);
+}
+.main-judul .history {
+    position: absolute;
+    top: 36%;
+    margin-left: 70px;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgba(55, 49, 49, 0.724);
+}
+.main-judul .main-desc {
+    width: 75%;
+    margin-left: 30px;
+}
+.container {
+    background-color: rgba(123, 46, 196, 0.658);
+    height: 200px;
+    margin-top: -200px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 44px 0;
+  transition: all 0.25s ease-in;
+}
+
+.carousel-view .item-list {
+  max-width: 950px;
+  width: 70vw;
+  padding: 50px 10px;
+  display: flex;
+  gap: 48px;
+  scroll-behavior: smooth;
+  transition: all 0.25s ease-in;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+}
+.item {
+  scroll-snap-align: center;
+  height: 120px;
+  background-color: deeppink;
+  border-radius:8px;
+}
+.second {
+    padding: 30px 0;
+    margin-left: 200px;
+    position: relative;
+}
+.second-title {
+    font-size: 70px;
+    font-weight: 700;
+    color: rgba(55, 49, 49, 0.724);
+}
+.second-judul {
+    display: flex;
+}
+.second-judul .climb {
+    position: absolute;
+    top: 35%;
+    margin-left: 70px;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgba(55, 49, 49, 0.724);
+}
+.second-desk {
+    margin-left: 90px;
+    margin-top: 20px;
+    width: 50%;
+}
+.option {
+    background-color:  rgba(123, 46, 196, 0.658);
+    padding: 20px 0 20px 200px;
+}
+.option a {
+    font-weight: 700;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.option a:hover {
+    background-color: whitesmoke;
+    padding: 20px 5px;
+}
+.schedule {
+    background-image: url('/assets/images/main.jpg');
+    height: 300px;
+    background-size: cover;
+    padding-top: 70px;
+    width: 100vw;
+}
+.pembungkus {
+    margin-left: 200px;
+    padding: 20px;
+    background-color: rgba(245, 222, 179, 0.646);
+    width: 250px;
+}
+.pembungkus h1 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.keterangan .ket-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.keterangan .ket-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.footer {
+    background-color:  rgba(123, 46, 196, 0.658);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+.footer .mark {
+    display: flex;
+}
+.mark img {
+    border-radius: 18px;
+    margin-right: 8px;
+}
+.mark {
+    margin-top: 5px;
+}
+.mark-desk .desk-footer {
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 17px;
+}
+.copyright {
+    font-weight: 700;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.74);
+    margin-top: 10px;
+}
+@media (max-width:992px) {
+    .main-judul .history {
+        top: 36%;
+    }
+}
+@media (max-width:768px) {
+    .main-judul {
+        margin-left: 150px;
+    }
+    .main-judul .history {
+        top: 34%;
+    }
+    .second {
+        margin-left: 160px;
+    }
+    .option {
+        padding: 20px 0 20px 160px;
+    }
+    .mark-desk {
+        margin-top: 8px;
+    }
+    .mark-desk .desk-footer {
+        font-size: 12px;
+    }
+    .copyright {
+        font-size: 12px;
+        margin-top: 14px;
+    }
+}
+@media (max-width:576px) {
+    .navbar-menu {
+        margin-top: 15px;
+    }
+    .top-nav img {
+        margin-top: 10px;
+    }
+    .navbar-menu .menu-option {
+        display: none;
+    }
+    .section-accordion {
+        display: block;
+    }
+    .hero-section img {
+        height: 30px;
+    }
+    .hero-menu  {
+        margin: 10px 10px;
+    }
+    .hero-menu .menu1 {
+        font-size: 12px;
+    }
+    .main-judul {
+        margin-left: 120px;
+    }
+    .main-judul .history {
+        top: 30%;
+    }
+    .main-judul .main-desc {
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .second {
+        margin-left: 120px;
+    }
+    .second-desk {
+        font-size: 12px;
+    }
+    .option {
+        padding: 20px 0 20px 120px;
+    }
+    .option a {
+        font-size: 12px;
+    }
+    .pembungkus {
+        margin-left: 120px;
+    }
+    .ket-1 p {
+        font-size: 12px;
+    }
+    .ket-2 p {
+        font-size: 12px;
+    }
+}
+@media (max-width:524px) {
+    .second-judul {
+        display: block;
+    }
+    .second-judul .climb {
+        top: 27%;
+    }
+    .second-desk {
+        margin-left: 0;
+        width: 80%;
+    }
+    .main-judul .history {
+        top: 25%;
+    }
+    .pembungkus {
+        margin-left: 70px;
+        /* width: 200px; */
+    }
+}
+@media (max-width:500px) {
+    .main-judul .history {
+        top: 25%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
