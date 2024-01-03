@@ -368,6 +368,10 @@
         margin: 0 20px;
         width: 60%;
     }
+    .hero-section {
+        display: block;
+        text-align: center;
+    }
 }
 
 
